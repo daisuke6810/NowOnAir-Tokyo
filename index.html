@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>NowOnAir Tokyo</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+	<script type="text/javascript" src="nowonair.js"></script>
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Now On Air Tokyo
+        </h3>
+    </div>
+    <div data-role="content">
+    <ul data-role="listview">
+      <li>
+            <select name="radioStation" id="radioSelect">
+                <option value="j-wave">
+                    j-wave
+                </option>
+                <option value="tokyoFM">
+                    Tokyo FM
+                </option>
+                <option value="interFM">
+                    Inter FM
+                </option>
+            </select>
+       </li>
+       <li id="resultPanel"></li>
+       </ul>
+    </div>
+    <div data-role="footer">
+	    @author daisuke6810
+	</div>
+	<div id="hidden"></div>
+</div>
+</body>
+</html>
